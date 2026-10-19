@@ -1,0 +1,30 @@
+# Same architecture, data and optimizer as BFF; all geometric weights are zero.
+name: rec_fm
+seed: 0
+data_seed: 0
+genome_seed: 42
+n_train: 5000
+n_test: 2000
+n_genes: 100
+latent_dim: 2
+hidden_dim: 128
+n_steps: 16
+epochs: 200
+batch_size: 128
+learning_rate: 0.002
+weight_decay: 0.00001
+grad_clip: 1.0
+geometry_batch: 16
+n_probes: 1
+n_pairs: 256
+lambda_fm: 1.0
+lambda_x: 0.0
+lambda_upper: 0.0
+lambda_early: 0.0
+lambda_sep: 0.0
+ceiling: 1.0
+floor: 0.5
+margin: 0.5
+epsilon: 0.1
+delta: 0.0
+
