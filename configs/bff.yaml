@@ -1,4 +1,3 @@
-# Illustrative public configuration, not a recovered cluster configuration.
 name: bff
 seed: 0
 data_seed: 0
